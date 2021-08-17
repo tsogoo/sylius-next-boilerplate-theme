@@ -14,7 +14,7 @@ export const getApiPublicUrl = (): string => {
 }
 
 export const getRessourceImageUrl = (imageSlug: string): string => {
-    return getApiPublicUrl()+'media/image/'+imageSlug;
+    return getApiPublicUrl()+imageSlug;
 }
 
 export const getTaxonRelativeUrl = (taxon: ITaxon): string => {

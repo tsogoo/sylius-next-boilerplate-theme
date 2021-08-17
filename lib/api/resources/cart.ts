@@ -14,7 +14,7 @@ export const addProductToCart = async (productCode: string, productVariantCode: 
 
     const body = {
         "productCode": productCode,
-        "productVariantCode": productVariantCode,
+        "productVariant": productVariantCode,
         "quantity": quantity
     };
 
